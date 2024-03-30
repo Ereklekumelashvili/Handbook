@@ -1,0 +1,82 @@
+table{
+    box-shadow: 5px 10px 30px #888888; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px ;
+    border: none;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+td {
+    padding: 16px;
+    width: 110px;
+    color: rgb(105, 105, 105);
+    
+    
+}
+
+th {
+    padding: 22px;
+    width: 110px;
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+    
+
+}
+
+
+ 
+.shadowed {
+    box-shadow: 5px 10px 20px #888888;
+}
+
+
+
+.paid {
+    border-radius: 5px;
+    margin: 0px;
+    padding: 10px;
+    color: rgba(100,168,106,255);
+    background-color: rgb(191, 242, 205);
+}
+
+.pending {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(255,240,194,255);
+    color: rgba(182,155,48,255);
+    margin: 0px;
+}
+
+.unpaid {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(255,205,210,255);
+    color: rgb(162, 47, 47);
+     margin: 0px;
+}
+
+.invoice {
+    color:blue;
+}
+
+.greyd {
+    background-color: rgba(244,246,251,255);
+    
+    
+}
+
+
+
+.amount {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.money {
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    
+}

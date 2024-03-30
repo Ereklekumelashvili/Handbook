@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F2F5;
+    height: 130vw;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+}    
+.handbook {
+    width: 4vw;
+    height: 4vw;
+   
+    border-radius: 50%;
+}
+.mainIconContainer {
+    display: flex;
+    gap: 2vw;
+    font-size: 25px;
+}
+
+.search1 {
+    
+    text-align: center;
+   
+    
+}
+
+.search {
+    
+    height: 30px;
+}
+
+.categorieIcon {
+    font-size:  28px;
+
+}
+nav {
+    margin-top: 5vw;
+    background-color: rgb(202, 202, 228);
+    height: 22vw;
+    width: 13vw;
+    position: absolute;
+    left: 0px;
+    gap: 1.3vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1vw;
+}
+.categorieContainer {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    margin-left: 0.5vw;
+}
+
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+}
+
+.authorLogo {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50px;
+}
+
+.authorCreds {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    margin-left: 1vw;
+}
+.interactPost {
+    display: flex;
+    gap: 1vw;
+    padding-right: 1vw;
+}
+.postDescription {
+    margin-left: 2vw;
+}
+.postHeader {
+    display: flex;
+    align-items: center;
+    gap: 25vw;
+
+}
+.postContainer {
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+    box-shadow: 5px 10px 18px #888888;
+    width: 40vw;
+    border-radius: 5px;
+}
+
+.thumbsNumber {
+    display: flex;
+    align-items: center;
+    margin-left: 1vw;
+    gap: 0.3vw;
+}
+
+.postMainImg {
+    width: auto;
+    height: auto;
+}
